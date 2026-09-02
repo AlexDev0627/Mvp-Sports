@@ -1,1 +1,135 @@
 @import "tailwindcss";
+
+/* ==========================================================================
+   MvpSports — Design tokens v3
+   Skill: frontend-design (sportswear azul, brand-aligned con logo)
+   ========================================================================== */
+
+@theme {
+    /* Color tokens (named, derivados del logo) */
+    --color-ice: #f0f6fb;
+    --color-midnight: #0b1426;
+    --color-cyan: #1fa8e0;
+    --color-navy: #0a4fa0;
+    --color-gold: #ffd200;
+    --color-vapor: #ffffff;
+    --color-bat-red: #9c1a1a;
+
+    /* Semantic */
+    --color-bg: var(--color-ice);
+    --color-fg: var(--color-midnight);
+    --color-accent: var(--color-cyan);
+    --color-accent-2: var(--color-navy);
+    --color-surface: var(--color-vapor);
+    --color-danger: var(--color-bat-red);
+
+    /* Typography */
+    --font-display: "Anton", "Bebas Neue", system-ui, sans-serif;
+    --font-body: "Inter", system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Base */
+html,
+body {
+    scroll-behavior: smooth;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Display headings: Anton (sportswear), used with restraint */
+h1,
+h2,
+.h-display {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    line-height: 0.95;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: clamp(3.5rem, 10vw, 8rem);
+}
+
+h2 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    line-height: 1;
+}
+
+h3 {
+    font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+}
+
+/* Utility/data mono */
+.font-mono,
+code,
+kbd,
+samp,
+.tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+}
+
+/* Eyebrow (structural, encodes content) */
+.eyebrow {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--color-cyan);
+    font-weight: 500;
+}
+
+/* Hairline borders */
+.hairline {
+    border-color: color-mix(in srgb, var(--color-midnight) 10%, transparent);
+}
+
+.hairline-strong {
+    border-color: color-mix(in srgb, var(--color-midnight) 25%, transparent);
+}
+
+/* Focus visible */
+*:focus-visible {
+    outline: 2px solid var(--color-cyan);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Selection */
+::selection {
+    background: var(--color-cyan);
+    color: var(--color-midnight);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
