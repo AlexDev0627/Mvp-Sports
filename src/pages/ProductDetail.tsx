@@ -49,15 +49,22 @@ export function ProductDetail() {
                     / <span className="text-[var(--color-midnight)]">{product.name}</span>
                 </nav>
 
-                <div className="grid md:grid-cols-2 gap-10">
-                    <ProductGallery product={product} />
-
-                    <div>
-                        <div className="flex items-center gap-2 mb-3">
+                {/* Mobile: bloque apilado. Desktop: 2 columnas (imagen | info) */}
+                <div className="md:grid md:grid-cols-2 md:gap-8 lg:gap-12 md:items-start">
+                    {/* === Columna izquierda (mobile: orden 2). Imagen === */}
+                    <div className="order-2 md:order-1 flex flex-col gap-4">
+                        <div className="flex items-center gap-2">
                             <Badge tone="default">{product.league}</Badge>
                             <Badge tone="default">{product.category}</Badge>
                         </div>
-                        <h1>{product.name}</h1>
+                        <ProductGallery product={product} />
+                    </div>
+
+                    {/* === Columna derecha (mobile: orden 1). Info === */}
+                    <div className="order-1 md:order-2 pt-6 md:pt-20 lg:pt-24 flex flex-col">
+                        <h1 className="!text-4xl sm:!text-5xl md:!text-6xl">
+                            {product.name}
+                        </h1>
                         <p className="font-mono text-3xl tabular-nums mt-4 mb-6">
                             {formatPrice(product.price, product.currency)}
                         </p>

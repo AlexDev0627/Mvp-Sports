@@ -41,25 +41,37 @@ export function ProductCard({ product }: ProductCardProps) {
             className="group block focus:outline-none"
         >
             <article className="relative bg-[var(--color-vapor)] border border-[color-mix(in_srgb,var(--color-midnight)_8%,transparent)] rounded-md overflow-hidden transition-all duration-200 group-hover:border-[var(--color-cyan)] group-hover:shadow-[0_8px_24px_-8px_color-mix(in_srgb,var(--color-cyan)_50%,transparent)]">
-                {/* Image area: 4:5 with honest type placeholder */}
-                <div className="relative aspect-[4/5] sm:aspect-[4/5] bg-[color-mix(in_srgb,var(--color-ice)_60%,var(--color-vapor))] overflow-hidden">
-                    {/* Big type mark center — smaller on mobile */}
-                    <div className="absolute inset-0 flex flex-col items-center justify-center">
-                        <span
-                            className="font-display text-[3.5rem] sm:text-[5.5rem] leading-none text-[color-mix(in_srgb,var(--color-midnight)_75%,transparent)]"
-                            aria-hidden
-                        >
-                            {product.category.slice(0, 2).toUpperCase()}
-                        </span>
-                        <span className="mt-1.5 sm:mt-2 font-mono text-[9px] sm:text-[10px] tracking-[0.2em] uppercase text-[color-mix(in_srgb,var(--color-midnight)_40%,transparent)]">
-                            {product.league}
-                        </span>
-                    </div>
+                {/* Image area: 1:1, real product image with type-mark fallback */}
+                <div className="relative aspect-square bg-[color-mix(in_srgb,var(--color-ice)_60%,var(--color-vapor))] overflow-hidden p-3 sm:p-4">
+                    {/* Real product image — only renders when an image exists */}
+                    {product.images[0] && (
+                        <img
+                            src={product.images[0]}
+                            alt={product.name}
+                            loading="lazy"
+                            className="absolute inset-3 sm:inset-4 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2rem)] h-[calc(100%-1.5rem)] sm:h-[calc(100%-2rem)] object-contain transition-transform duration-500 group-hover:scale-[1.05]"
+                        />
+                    )}
+
+                    {/* Type-mark fallback — only when no image available */}
+                    {!product.images[0] && (
+                        <div className="absolute inset-0 flex flex-col items-center justify-center">
+                            <span
+                                className="font-display text-[2.5rem] sm:text-[3.5rem] leading-none text-[color-mix(in_srgb,var(--color-midnight)_75%,transparent)]"
+                                aria-hidden
+                            >
+                                {product.category.slice(0, 2).toUpperCase()}
+                            </span>
+                            <span className="mt-1.5 sm:mt-2 font-mono text-[9px] sm:text-[10px] tracking-[0.2em] uppercase text-[color-mix(in_srgb,var(--color-midnight)_40%,transparent)]">
+                                {product.league}
+                            </span>
+                        </div>
+                    )}
 
                     {/* Team badge top-left — smaller on mobile */}
                     {mark && (
                         <div
-                            className="absolute top-2 left-2 sm:top-2.5 sm:left-2.5 w-7 h-7 sm:w-9 sm:h-9 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-white shadow-sm"
+                            className="absolute top-2 left-2 sm:top-2.5 sm:left-2.5 w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center font-mono text-[10px] sm:text-[11px] font-bold tracking-wider text-white shadow-sm z-10"
                             style={{ background: mark.color }}
                             aria-label={`Equipo ${mark.label}`}
                         >
@@ -69,11 +81,11 @@ export function ProductCard({ product }: ProductCardProps) {
 
                     {/* Tag top-right — smaller on mobile */}
                     {product.bestseller ? (
-                        <Badge tone="accent" className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 text-[9px] sm:text-[11px]">
+                        <Badge tone="accent" className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 text-[9px] sm:text-[10px] z-10">
                             Bestseller
                         </Badge>
                     ) : product.featured ? (
-                        <Badge className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 text-[9px] sm:text-[11px]">
+                        <Badge className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 text-[9px] sm:text-[10px] z-10">
                             Nuevo
                         </Badge>
                     ) : null}

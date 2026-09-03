@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import {
-    useFeaturedProducts,
-    useBestsellers,
+    useJerseysWithImages,
 } from "../hooks/useProducts";
 import { Hero } from "../components/home/Hero";
 import { FeaturedSection } from "../components/home/FeaturedSection";
@@ -11,8 +10,7 @@ import { Meta } from "../components/seo/Meta";
 import { Container } from "../components/layout/Container";
 
 export function Home() {
-    const featured = useFeaturedProducts();
-    const bestsellers = useBestsellers();
+    const jerseys = useJerseysWithImages();
     return (
         <>
             <Meta
@@ -23,14 +21,14 @@ export function Home() {
             <FeaturedSection
                 number="01"
                 label="Starters"
-                title="Destacados"
-                products={featured}
+                title="Jerseys destacados"
+                products={jerseys}
             >
                 <Link
-                    to="/shop"
+                    to="/shop/jerseys"
                     className="font-mono text-[11px] tracking-[0.18em] uppercase text-[var(--color-midnight)] hover:text-[var(--color-cyan)] transition-colors"
                 >
-                    Ver todo →
+                    Ver jerseys →
                 </Link>
             </FeaturedSection>
             <TeamsBanner />
@@ -39,7 +37,7 @@ export function Home() {
                 number="03"
                 label="Heavy hitters"
                 title="Más vendidos"
-                products={bestsellers}
+                products={jerseys}
             />
 
             {/* Editorial closing band */}
