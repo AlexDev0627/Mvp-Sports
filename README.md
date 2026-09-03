@@ -1,7 +1,7 @@
 # ⚾ MvpSports
 
 **MvpSports** es una tienda online de ropa y artículos de béisbol orientada al fan casual en Venezuela y Latam. El proyecto ofrece réplicas oficiales de MLB y LVBP, guantes, bates, pelotas y gorras de marcas que usan los profesionales.
-
+![Vista previa de MvpSports](./public/MVP-SPORTS.png)
 > _Gear up. Game on._
 
 Es un MVP (Producto Mínimo Viable) construido como aplicación web de una sola página (SPA) con datos mock, pensado para validar la experiencia de compra antes de integrar un backend real.
