@@ -13,7 +13,7 @@ export function About() {
                 <h1 className="mb-6">Hecho por fans, para fans</h1>
                 <div className="prose-like space-y-4 text-[var(--color-midnight)]/80 leading-relaxed">
                     <p>
-                        MvpSports nació en Caracas con una idea simple: hacer que el gear
+                        MvpSports nació en Valencia con una idea simple: hacer que el gear
                         de béisbol sea accesible y auténtico para los fans de Venezuela y
                         toda Latam. Demasiadas veces encontramos jerseys genéricos,
                         precios inflados o envíos de dos meses.

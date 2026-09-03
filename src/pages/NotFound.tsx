@@ -10,7 +10,7 @@ export function NotFound() {
                 <p className="font-mono text-7xl text-[var(--color-cyan)] mb-3">
                     404
                 </p>
-                <h1 className="mb-3">Out of bounds</h1>
+                <h1 className="mb-3">Pagina no encontrada</h1>
                 <p className="text-[var(--color-midnight)]/70 mb-8">
                     La página que buscas no existe o fue movida.
                 </p>
