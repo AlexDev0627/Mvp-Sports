@@ -402,7 +402,7 @@
         "price": 89.99,
         "currency": "USD",
         "images": [
-            "/products/bravos.png"
+            "/products/bravos-gemini.jfif"
         ],
         "category": "jerseys",
         "league": "MLB",
@@ -445,7 +445,7 @@
         "price": 89.99,
         "currency": "USD",
         "images": [
-            "/products/toronto.png"
+            "/products/toronto-gemini.jfif"
         ],
         "category": "jerseys",
         "league": "MLB",
@@ -662,7 +662,7 @@
         "price": 75.0,
         "currency": "USD",
         "images": [
-            "/products/venezuela2.png"
+            "/products/venezuela2-gemini.jfif"
         ],
         "category": "jerseys",
         "league": "Other",
@@ -738,5 +738,134 @@
         "inStock": 22,
         "bestseller": true,
         "createdAt": "2025-03-05"
+    },
+    {
+        "id": "p021",
+        "slug": "venezuela-black2-jersey-2025",
+        "name": "Jersey Venezuela Negro 2025 (V2)",
+        "description": "Jersey oficial Selección de Venezuela alternativo negro 2025. Segunda variante, edición premium con detalles exclusivos.",
+        "price": 85.0,
+        "currency": "USD",
+        "images": [
+            "/products/venezuela-black2.jfif"
+        ],
+        "category": "jerseys",
+        "league": "Other",
+        "team": "venezuela",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "VEN-BLK2-S",
+                "stock": 4
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "VEN-BLK2-M",
+                "stock": 7
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "VEN-BLK2-L",
+                "stock": 5
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "VEN-BLK2-XL",
+                "stock": 3
+            }
+        ],
+        "inStock": 19,
+        "bestseller": true,
+        "createdAt": "2025-03-08"
+    },
+    {
+        "id": "p022",
+        "slug": "braves-black-jersey-2025",
+        "name": "Jersey Braves Negro 2025",
+        "description": "Réplica oficial Atlanta Braves alternativa negra 2025. Edición especial, detalles dorados.",
+        "price": 95.0,
+        "currency": "USD",
+        "images": [
+            "/products/bravos-black-gemini.jfif"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "braves",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "ATL-BLK-S",
+                "stock": 5
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "ATL-BLK-M",
+                "stock": 8
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "ATL-BLK-L",
+                "stock": 6
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "ATL-BLK-XL",
+                "stock": 4
+            }
+        ],
+        "inStock": 23,
+        "featured": true,
+        "createdAt": "2025-03-10"
+    },
+    {
+        "id": "p023",
+        "slug": "braves-black2-jersey-2025",
+        "name": "Jersey Braves Negro 2025 (V2)",
+        "description": "Réplica oficial Atlanta Braves alternativa negra 2025. Segunda variante, city connect edition.",
+        "price": 95.0,
+        "currency": "USD",
+        "images": [
+            "/products/bravos-black2-gemini.jfif"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "braves",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "ATL-BLK2-S",
+                "stock": 4
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "ATL-BLK2-M",
+                "stock": 7
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "ATL-BLK2-L",
+                "stock": 5
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "ATL-BLK2-XL",
+                "stock": 3
+            }
+        ],
+        "inStock": 19,
+        "bestseller": true,
+        "createdAt": "2025-03-12"
     }
 ]
