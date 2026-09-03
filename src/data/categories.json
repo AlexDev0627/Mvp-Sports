@@ -1,0 +1,38 @@
+[
+    {
+        "id": "jerseys",
+        "label": "Jerseys",
+        "description": "Réplicas y oficiales. MLB y LVBP.",
+        "icon": "shirt"
+    },
+    {
+        "id": "gloves",
+        "label": "Guantes",
+        "description": "Guantes de campo, primera base, catcher.",
+        "icon": "glove"
+    },
+    {
+        "id": "balls",
+        "label": "Pelotas",
+        "description": "Oficiales, práctica, softbol.",
+        "icon": "ball"
+    },
+    {
+        "id": "bats",
+        "label": "Bates",
+        "description": "Madera y aluminio. Varios pesos.",
+        "icon": "bat"
+    },
+    {
+        "id": "caps",
+        "label": "Gorras",
+        "description": "Snapback, fitted, dad hat.",
+        "icon": "cap"
+    },
+    {
+        "id": "apparel",
+        "label": "Ropa",
+        "description": "Camisetas, hoodies, accesorios.",
+        "icon": "hoodie"
+    }
+]

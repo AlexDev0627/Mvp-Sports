@@ -1,0 +1,121 @@
+[
+    {
+        "id": "yankees",
+        "name": "Yankees",
+        "league": "MLB",
+        "city": "New York",
+        "logo": ""
+    },
+    {
+        "id": "dodgers",
+        "name": "Dodgers",
+        "league": "MLB",
+        "city": "Los Angeles",
+        "logo": ""
+    },
+    {
+        "id": "redsox",
+        "name": "Red Sox",
+        "league": "MLB",
+        "city": "Boston",
+        "logo": ""
+    },
+    {
+        "id": "astros",
+        "name": "Astros",
+        "league": "MLB",
+        "city": "Houston",
+        "logo": ""
+    },
+    {
+        "id": "mets",
+        "name": "Mets",
+        "league": "MLB",
+        "city": "New York",
+        "logo": ""
+    },
+    {
+        "id": "cubs",
+        "name": "Cubs",
+        "league": "MLB",
+        "city": "Chicago",
+        "logo": ""
+    },
+    {
+        "id": "tigers",
+        "name": "Tigers",
+        "league": "MLB",
+        "city": "Detroit",
+        "logo": ""
+    },
+    {
+        "id": "marlins",
+        "name": "Marlins",
+        "league": "MLB",
+        "city": "Miami",
+        "logo": ""
+    },
+    {
+        "id": "braves",
+        "name": "Braves",
+        "league": "MLB",
+        "city": "Atlanta",
+        "logo": ""
+    },
+    {
+        "id": "bluejays",
+        "name": "Blue Jays",
+        "league": "MLB",
+        "city": "Toronto",
+        "logo": ""
+    },
+    {
+        "id": "cardinals",
+        "name": "Cardinals",
+        "league": "MLB",
+        "city": "St. Louis",
+        "logo": ""
+    },
+    {
+        "id": "padres",
+        "name": "Padres",
+        "league": "MLB",
+        "city": "San Diego",
+        "logo": ""
+    },
+    {
+        "id": "magallanes",
+        "name": "Navegantes del Magallanes",
+        "league": "LVBP",
+        "city": "Valencia",
+        "logo": ""
+    },
+    {
+        "id": "caribes",
+        "name": "Caribes de Anzoátegui",
+        "league": "LVBP",
+        "city": "Puerto La Cruz",
+        "logo": ""
+    },
+    {
+        "id": "leones",
+        "name": "Leones del Caracas",
+        "league": "LVBP",
+        "city": "Caracas",
+        "logo": ""
+    },
+    {
+        "id": "tiburones",
+        "name": "Tiburones de La Guaira",
+        "league": "LVBP",
+        "city": "La Guaira",
+        "logo": ""
+    },
+    {
+        "id": "venezuela",
+        "name": "Selección Venezuela",
+        "league": "Other",
+        "city": "Venezuela",
+        "logo": ""
+    }
+]

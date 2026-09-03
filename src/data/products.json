@@ -1,0 +1,742 @@
+[
+    {
+        "id": "p001",
+        "slug": "yankees-home-jersey-2025",
+        "name": "Jersey Yankees Home 2025",
+        "description": "Réplica oficial New York Yankees temporada 2025. Tela transpirable, parches bordados.",
+        "price": 89.99,
+        "currency": "USD",
+        "images": [
+            "/products/yankees-gemini.jfif"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "yankees",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "YNK-HOME-S",
+                "stock": 8
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "YNK-HOME-M",
+                "stock": 12
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "YNK-HOME-L",
+                "stock": 10
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "YNK-HOME-XL",
+                "stock": 6
+            }
+        ],
+        "inStock": 36,
+        "featured": true,
+        "bestseller": true,
+        "createdAt": "2025-01-15"
+    },
+    {
+        "id": "p002",
+        "slug": "dodgers-away-jersey-2025",
+        "name": "Jersey Dodgers Away 2025",
+        "description": "Réplica oficial Los Angeles Dodgers carretera 2025. Corte clásico, logo bordado.",
+        "price": 89.99,
+        "currency": "USD",
+        "images": [
+            "/products/los-angeles.png"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "dodgers",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "LAD-AWAY-S",
+                "stock": 5
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "LAD-AWAY-M",
+                "stock": 9
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "LAD-AWAY-L",
+                "stock": 11
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "LAD-AWAY-XL",
+                "stock": 4
+            }
+        ],
+        "inStock": 29,
+        "featured": true,
+        "createdAt": "2025-01-20"
+    },
+    {
+        "id": "p003",
+        "slug": "magallanes-home-jersey-2024",
+        "name": "Jersey Magallanes Home 2024-2025",
+        "description": "Jersey oficial Navegantes del Magallanes temporada LVBP 2024-2025.",
+        "price": 65.0,
+        "currency": "USD",
+        "images": [
+            "/products/magallanes.png"
+        ],
+        "category": "jerseys",
+        "league": "LVBP",
+        "team": "magallanes",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "MAG-HOME-S",
+                "stock": 7
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "MAG-HOME-M",
+                "stock": 14
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "MAG-HOME-L",
+                "stock": 13
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "MAG-HOME-XL",
+                "stock": 8
+            }
+        ],
+        "inStock": 42,
+        "featured": true,
+        "bestseller": true,
+        "createdAt": "2024-10-12"
+    },
+    {
+        "id": "p004",
+        "slug": "leones-caracas-jersey-2024",
+        "name": "Jersey Leones del Caracas 2024-2025",
+        "description": "Jersey oficial Leones del Caracas LVBP. Pasión caraqueña en el diamante.",
+        "price": 65.0,
+        "currency": "USD",
+        "images": [],
+        "category": "jerseys",
+        "league": "LVBP",
+        "team": "leones",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "M",
+                "sku": "LEO-HOME-M",
+                "stock": 10
+            },
+            {
+                "id": "v2",
+                "size": "L",
+                "sku": "LEO-HOME-L",
+                "stock": 9
+            },
+            {
+                "id": "v3",
+                "size": "XL",
+                "sku": "LEO-HOME-XL",
+                "stock": 5
+            }
+        ],
+        "inStock": 24,
+        "bestseller": true,
+        "createdAt": "2024-10-15"
+    },
+    {
+        "id": "p005",
+        "slug": "rawlings-heart-of-hide-12-75",
+        "name": "Guante Rawlings Heart of the Hide 12.75\"",
+        "description": "Guante outfield profesional Rawlings. Cuero Heart of the Hide, calidad MLB.",
+        "price": 299.0,
+        "currency": "USD",
+        "images": [],
+        "category": "gloves",
+        "league": "MLB",
+        "variants": [
+            {
+                "id": "v1",
+                "handedness": "RHP",
+                "sku": "RW-HOH-RHP",
+                "stock": 4
+            },
+            {
+                "id": "v2",
+                "handedness": "LHP",
+                "sku": "RW-HOH-LHP",
+                "stock": 2
+            }
+        ],
+        "inStock": 6,
+        "featured": true,
+        "createdAt": "2025-02-01"
+    },
+    {
+        "id": "p006",
+        "slug": "wilson-a2000-11-75",
+        "name": "Guante Wilson A2000 11.75\"",
+        "description": "Infield glove Wilson A2000. Cuero Pro Stock, patrón自己喜欢的.",
+        "price": 249.0,
+        "currency": "USD",
+        "images": [],
+        "category": "gloves",
+        "league": "MLB",
+        "variants": [
+            {
+                "id": "v1",
+                "handedness": "RHP",
+                "sku": "WLS-A2K-RHP",
+                "stock": 5
+            },
+            {
+                "id": "v2",
+                "handedness": "LHP",
+                "sku": "WLS-A2K-LHP",
+                "stock": 3
+            }
+        ],
+        "inStock": 8,
+        "bestseller": true,
+        "createdAt": "2025-01-28"
+    },
+    {
+        "id": "p007",
+        "slug": "rawlings-official-mlb-ball-dozen",
+        "name": "Docena Pelotas Official MLB",
+        "description": "Docena de pelotas oficiales MLB Rawlings. Cuero auténtico, costuras rojas.",
+        "price": 119.0,
+        "currency": "USD",
+        "images": [],
+        "category": "balls",
+        "league": "MLB",
+        "variants": [
+            {
+                "id": "v1",
+                "sku": "MLB-BALL-DZN",
+                "stock": 20
+            }
+        ],
+        "inStock": 20,
+        "createdAt": "2025-01-10"
+    },
+    {
+        "id": "p008",
+        "slug": "marucci-cat9-33-31",
+        "name": "Bate Marucci CAT9 -3 33\"",
+        "description": "Bate aluminio Marucci CAT9, drop -3, 33 pulgadas. Potencia balanceada.",
+        "price": 199.0,
+        "currency": "USD",
+        "images": [],
+        "category": "bats",
+        "league": "MLB",
+        "variants": [
+            {
+                "id": "v1",
+                "weight": "30oz",
+                "sku": "MRC-CAT9-30",
+                "stock": 6
+            },
+            {
+                "id": "v2",
+                "weight": "31oz",
+                "sku": "MRC-CAT9-31",
+                "stock": 4
+            }
+        ],
+        "inStock": 10,
+        "bestseller": true,
+        "createdAt": "2025-02-05"
+    },
+    {
+        "id": "p009",
+        "slug": "louisville-slugger-meta-32-29",
+        "name": "Bate Louisville Slugger Meta -3 32\"",
+        "description": "Bate aluminio Louisville Slugger Meta. Construcción EKO, swing ligero.",
+        "price": 219.0,
+        "currency": "USD",
+        "images": [],
+        "category": "bats",
+        "league": "MLB",
+        "variants": [
+            {
+                "id": "v1",
+                "weight": "29oz",
+                "sku": "LS-META-29",
+                "stock": 5
+            },
+            {
+                "id": "v2",
+                "weight": "30oz",
+                "sku": "LS-META-30",
+                "stock": 3
+            }
+        ],
+        "inStock": 8,
+        "createdAt": "2025-02-08"
+    },
+    {
+        "id": "p010",
+        "slug": "yankees-47-clean-up-cap",
+        "name": "Gorra Yankees 47 Brand Clean Up",
+        "description": "Gorra '47 Brand Yankees Clean Up. Lavada, relaxed fit, bordado frontal.",
+        "price": 35.0,
+        "currency": "USD",
+        "images": [],
+        "category": "caps",
+        "league": "MLB",
+        "team": "yankees",
+        "variants": [
+            {
+                "id": "v1",
+                "color": "Navy",
+                "sku": "47-YNK-NAVY",
+                "stock": 12
+            },
+            {
+                "id": "v2",
+                "color": "White",
+                "sku": "47-YNK-WHT",
+                "stock": 8
+            }
+        ],
+        "inStock": 20,
+        "bestseller": true,
+        "createdAt": "2025-01-22"
+    },
+    {
+        "id": "p011",
+        "slug": "redsox-new-era-59fifty",
+        "name": "Gorra Red Sox New Era 59FIFTY",
+        "description": "Gorra fitted New Era 59FIFTY Red Sox. Talla numérica, corona alta.",
+        "price": 42.0,
+        "currency": "USD",
+        "images": [],
+        "category": "caps",
+        "league": "MLB",
+        "team": "redsox",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "7 1/4",
+                "sku": "NE-BOS-714",
+                "stock": 4
+            },
+            {
+                "id": "v2",
+                "size": "7 3/8",
+                "sku": "NE-BOS-738",
+                "stock": 5
+            },
+            {
+                "id": "v3",
+                "size": "7 1/2",
+                "sku": "NE-BOS-712",
+                "stock": 6
+            }
+        ],
+        "inStock": 15,
+        "createdAt": "2025-01-25"
+    },
+    {
+        "id": "p012",
+        "slug": "astros-hoodie-pulldown",
+        "name": "Hoodie Astros Pulldown",
+        "description": "Hoodie Houston Astros con capucha. Algodón pesado, logo grande al frente.",
+        "price": 55.0,
+        "currency": "USD",
+        "images": [],
+        "category": "apparel",
+        "league": "MLB",
+        "team": "astros",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "M",
+                "sku": "AST-HD-M",
+                "stock": 7
+            },
+            {
+                "id": "v2",
+                "size": "L",
+                "sku": "AST-HD-L",
+                "stock": 9
+            },
+            {
+                "id": "v3",
+                "size": "XL",
+                "sku": "AST-HD-XL",
+                "stock": 5
+            }
+        ],
+        "inStock": 21,
+        "featured": true,
+        "createdAt": "2025-02-10"
+    },
+    {
+        "id": "p013",
+        "slug": "braves-home-jersey-2025",
+        "name": "Jersey Braves Home 2025",
+        "description": "Réplica oficial Atlanta Braves temporada 2025. Tela transpirable, parches bordados.",
+        "price": 89.99,
+        "currency": "USD",
+        "images": [
+            "/products/bravos.png"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "braves",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "ATL-HOME-S",
+                "stock": 6
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "ATL-HOME-M",
+                "stock": 10
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "ATL-HOME-L",
+                "stock": 8
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "ATL-HOME-XL",
+                "stock": 5
+            }
+        ],
+        "inStock": 29,
+        "featured": true,
+        "createdAt": "2025-02-15"
+    },
+    {
+        "id": "p014",
+        "slug": "bluejays-home-jersey-2025",
+        "name": "Jersey Blue Jays Home 2025",
+        "description": "Réplica oficial Toronto Blue Jays temporada 2025. Logo bordado, corte clásico.",
+        "price": 89.99,
+        "currency": "USD",
+        "images": [
+            "/products/toronto.png"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "bluejays",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "TOR-HOME-S",
+                "stock": 5
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "TOR-HOME-M",
+                "stock": 9
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "TOR-HOME-L",
+                "stock": 7
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "TOR-HOME-XL",
+                "stock": 4
+            }
+        ],
+        "inStock": 25,
+        "featured": true,
+        "createdAt": "2025-02-18"
+    },
+    {
+        "id": "p015",
+        "slug": "cardinals-home-jersey-2025",
+        "name": "Jersey Cardinals Home 2025",
+        "description": "Réplica oficial St. Louis Cardinals temporada 2025. Botones clásicos, parches bordados.",
+        "price": 89.99,
+        "currency": "USD",
+        "images": [
+            "/products/saint-louis.gemini.jfif"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "cardinals",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "STL-HOME-S",
+                "stock": 7
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "STL-HOME-M",
+                "stock": 11
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "STL-HOME-L",
+                "stock": 9
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "STL-HOME-XL",
+                "stock": 6
+            }
+        ],
+        "inStock": 33,
+        "featured": true,
+        "bestseller": true,
+        "createdAt": "2025-02-20"
+    },
+    {
+        "id": "p016",
+        "slug": "padres-home-jersey-2025",
+        "name": "Jersey Padres Home 2025",
+        "description": "Réplica oficial San Diego Padres temporada 2025. Colores clásicos del equipo.",
+        "price": 89.99,
+        "currency": "USD",
+        "images": [
+            "/products/san-diego-gemini.jfif"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "padres",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "SD-HOME-S",
+                "stock": 6
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "SD-HOME-M",
+                "stock": 10
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "SD-HOME-L",
+                "stock": 8
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "SD-HOME-XL",
+                "stock": 5
+            }
+        ],
+        "inStock": 29,
+        "featured": true,
+        "createdAt": "2025-02-22"
+    },
+    {
+        "id": "p017",
+        "slug": "padres-black-jersey-2025",
+        "name": "Jersey Padres Negro 2025",
+        "description": "Réplica oficial San Diego Padres alternativa negra 2025. Diseño city connect.",
+        "price": 95.0,
+        "currency": "USD",
+        "images": [
+            "/products/padres-black-gemini.jfif"
+        ],
+        "category": "jerseys",
+        "league": "MLB",
+        "team": "padres",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "SD-BLK-S",
+                "stock": 4
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "SD-BLK-M",
+                "stock": 7
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "SD-BLK-L",
+                "stock": 6
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "SD-BLK-XL",
+                "stock": 3
+            }
+        ],
+        "inStock": 20,
+        "bestseller": true,
+        "createdAt": "2025-02-25"
+    },
+    {
+        "id": "p018",
+        "slug": "venezuela-home-jersey-2025",
+        "name": "Jersey Venezuela Home 2025",
+        "description": "Jersey oficial Selección de Venezuela 2025. Edición clásica, colores patrios.",
+        "price": 75.0,
+        "currency": "USD",
+        "images": [
+            "/products/venezuela.png"
+        ],
+        "category": "jerseys",
+        "league": "Other",
+        "team": "venezuela",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "VEN-HOME-S",
+                "stock": 8
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "VEN-HOME-M",
+                "stock": 12
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "VEN-HOME-L",
+                "stock": 10
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "VEN-HOME-XL",
+                "stock": 6
+            }
+        ],
+        "inStock": 36,
+        "featured": true,
+        "bestseller": true,
+        "createdAt": "2025-02-28"
+    },
+    {
+        "id": "p019",
+        "slug": "venezuela-away-jersey-2025",
+        "name": "Jersey Venezuela Away 2025",
+        "description": "Jersey oficial Selección de Venezuela carretera 2025. Edición clásica visitante.",
+        "price": 75.0,
+        "currency": "USD",
+        "images": [
+            "/products/venezuela2.png"
+        ],
+        "category": "jerseys",
+        "league": "Other",
+        "team": "venezuela",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "VEN-AWAY-S",
+                "stock": 6
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "VEN-AWAY-M",
+                "stock": 9
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "VEN-AWAY-L",
+                "stock": 7
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "VEN-AWAY-XL",
+                "stock": 4
+            }
+        ],
+        "inStock": 26,
+        "createdAt": "2025-03-01"
+    },
+    {
+        "id": "p020",
+        "slug": "venezuela-black-jersey-2025",
+        "name": "Jersey Venezuela Negro 2025",
+        "description": "Jersey oficial Selección de Venezuela alternativo negro 2025. Edición premium.",
+        "price": 85.0,
+        "currency": "USD",
+        "images": [
+            "/products/venezuela-black.png"
+        ],
+        "category": "jerseys",
+        "league": "Other",
+        "team": "venezuela",
+        "variants": [
+            {
+                "id": "v1",
+                "size": "S",
+                "sku": "VEN-BLK-S",
+                "stock": 5
+            },
+            {
+                "id": "v2",
+                "size": "M",
+                "sku": "VEN-BLK-M",
+                "stock": 8
+            },
+            {
+                "id": "v3",
+                "size": "L",
+                "sku": "VEN-BLK-L",
+                "stock": 6
+            },
+            {
+                "id": "v4",
+                "size": "XL",
+                "sku": "VEN-BLK-XL",
+                "stock": 3
+            }
+        ],
+        "inStock": 22,
+        "bestseller": true,
+        "createdAt": "2025-03-05"
+    }
+]
